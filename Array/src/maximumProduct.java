@@ -4,6 +4,8 @@ import static sun.swing.MenuItemLayoutHelper.max;
 
 /**
  * 三个数的最大乘积
+ * 第一种办法：排序后取max(0，1，length 和 length-2，length-1，length)最大值
+ * 第二种办法：直接找最小的两个数，和最大的三个数，算乘积
  * */
 public class maximumProduct {
     public static void main(String[] args){
